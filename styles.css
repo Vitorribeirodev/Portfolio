@@ -1,0 +1,100 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão do corpo do documento */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo do corpo do documento */
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 1em 0; /* Define o padding do cabeçalho (1em em cima e em baixo, 0 nas laterais) */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o padding da lista */
+    text-align: center; /* Centraliza o texto na navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Define a margem entre os itens da lista */
+}
+
+nav ul li a {
+    color: white; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao texto do link quando o mouse passa por cima */
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px; /* Define o padding do conteúdo principal */
+    text-align: center; /* Centraliza o texto dentro do conteúdo principal */
+}
+
+h1 {
+    color: #333; /* Define a cor do texto do título principal */
+}
+
+p {
+    font-size: 1.2em; /* Define o tamanho da fonte dos parágrafos */
+    color: #666; /* Define a cor do texto dos parágrafos */
+}
+
+/* Formulário de contato */
+form {
+    display: flex; /* Define o layout do formulário como flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos no centro */
+    max-width: 400px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    background: white; /* Define a cor de fundo do formulário */
+    padding: 20px; /* Define o padding interno do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do formulário */
+}
+
+label {
+    margin-top: 10px; /* Define a margem superior dos rótulos */
+    margin-bottom: 5px; /* Define a margem inferior dos rótulos */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+input, textarea {
+    width: 100%; /* Define a largura dos campos como 100% do contêiner */
+    padding: 10px; /* Define o padding interno dos campos */
+    margin-bottom: 10px; /* Define a margem inferior dos campos */
+    border: 1px solid #ccc; /* Define a borda dos campos */
+    border-radius: 5px; /* Define os cantos arredondados dos campos */
+}
+
+button {
+    padding: 10px 20px; /* Define o padding interno do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Define os cantos arredondados do botão */
+    background-color: #333; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    font-size: 1em; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Define o cursor do mouse como pointer ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse por cima */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+    padding: 10px 0; /* Define o padding do rodapé (10px em cima e em baixo, 0 nas laterais) */
+    position: fixed; /* Define o rodapé como fixo na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé como 100% da tela */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da tela */
+}
